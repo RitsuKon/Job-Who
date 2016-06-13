@@ -1,0 +1,83 @@
+//
+//  Job-WhoPrefixHeader.pch
+//  Job-Who
+//
+//  Created by 金洪生 on 16/5/24.
+//  Copyright © 2016年 金洪生. All rights reserved.
+//
+
+#ifndef Job_WhoPrefixHeader_pch
+#define Job_WhoPrefixHeader_pch
+
+#define Width [UIScreen mainScreen].bounds.size.width
+#define Height [UIScreen mainScreen].bounds.size.height
+#define CWidth self.contentView.frame.size.width
+#define CHeight self.contentView.frame.size.height
+#define Color_System [UIColor colorWithRed:(CGFloat)0 / 255 green:(CGFloat)120 / 255 blue:(CGFloat)78 / 255 alpha:1]
+#define UserWidth self.userView.frame.size.width
+#define UserHeight self.userView.frame.size.height
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//ViewController
+#import "GuideViewController.h"
+#import "HomeViewController.h"
+#import "BaseViewController.h"
+#import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "RegistPhoneNumberViewController.h"
+#import "OtherFunction.h"
+#import "CodeViewController.h"
+#import "SettingPassWordViewController.h"
+#import "ForegtViewController.h"
+#import "ResetPasswordViewController.h"
+#import "AddressChooseViewController.h"
+#import "AddressTableViewCell.h"
+#import "AddressSelectViewController.h"
+#import "DetailAddressTableViewCell.h"
+#import "NaView.h"
+#import "MyViewController.h"
+#import "OrderViewController.h"
+#import "OrderButtonTableViewCell.h"
+#import "AddressLocationTableViewCell.h"
+#import "SendForMeViewController.h"
+#import "OrderCancelView.h"
+#import "ReceiveAndGetTableViewCell.h"
+#import "DateTableViewCell.h"
+#import "GoodsTableViewCell.h"
+#import "TelephoneTableViewCell.h"
+#import "ServiceTableViewCell.h"
+#import "ApproveViewController.h"
+#import "ApproveInfoTableViewCell.h"
+#import "IdentityTableViewCell.h"
+#import "BuyForMeViewController.h"
+#import "BuyTableViewCell.h"
+#import "AddressSelectTableViewCell.h"
+#import "DoForMeViewController.h"
+#import "SkillSelectViewController.h"
+#import "SkillSelectTableViewCell.h"
+#import "SkillDetailTableViewCell.h"
+#import "ServiceViewController.h"
+#import "InfoServiceTableViewCell.h"
+#import "MyServiceTableViewCell.h"
+//Third
+#import <Masonry/Masonry.h>
+#import <BaiduMapAPI_Base/BMKMapManager.h>
+#import <BaiduMapAPI_Map/BMKMapView.h>
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>
+#import <BaiduMapAPI_Search/BMKGeocodeSearchOption.h>
+#import <BaiduMapAPI_Search/BMKGeocodeSearch.h>
+#import <BaiduMapAPI_Search/BMKPoiSearch.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <BaiduMapAPI_Utils/BMKGeometry.h>
+
+
+
+#import <Contacts/Contacts.h>
+#import <ContactsUI/ContactsUI.h>
+#import <ContactsUI/CNContactViewController.h>
+#import <ContactsUI/CNContactPickerViewController.h>
+#endif /* Job_WhoPrefixHeader_pch */
+
+
+
