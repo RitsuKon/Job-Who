@@ -48,6 +48,7 @@
     [self.view addSubview:self.tableView];
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+#pragma sasdadawd
     return 6;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
